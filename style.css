@@ -16,10 +16,14 @@ h1 {
     font-size:40px;
 }
 aside {
+    display:inline-block;
     flex: 30%;
 background-color: brown;
 flex-wrap:wrap;
-padding:10px;
+padding:8px;
+/*3 value margin 20px=top 30px=l&r 50px=bottom*/
+margin:20px 30px 50px;
+
 }
 
 article {
@@ -33,7 +37,7 @@ header nav ul{
 }
 header ul li {
     list-style-type: none;
- /*display: inline-block;*/
+ display: inline-block;
 font-size:23px;
 }
 
@@ -60,11 +64,13 @@ h2 {
 main {
     width:40%;
     display:flex;
-   
+    flex-wrap:wrap;
+   margin:10px 0px 10px;
 }
 .content {
-width:auto;
 line-height:1.5;
+margin:10px 10px 30px;
+
 }
 footer ul li {
     list-style-type: none;
@@ -75,10 +81,11 @@ footer {
 }
 .content article img {
     width:250px;
+    margin-left:5px;
 }
 
-section .about-me {
-    /*display:flex;*/
-flex-wrap:wrap;
-flex:60%;
+main section .about-me {
+display:inline-block;
+/*flex-wrap:wrap;
+flex:60%;*/
 }
