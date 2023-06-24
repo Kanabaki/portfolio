@@ -1,14 +1,11 @@
 # <Portfolio>
 ## Description
-Week 02's Portfolio
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This application was created to serve as a portfolio so that future employers can see different projects that have been created throughout the course of the coding journey. This web app served as a challenge to make a web app from scratch. I learned more about the syntax needed to make code run the way that is expected.
 ## Installation
 N/A
 ## Usage
 Add screenshot and link here, and explain how to use
+When you load the webpage you can see a header with a navigation section that you can click to jump to different sections on the page. Below that, you can find this developer's name, as well as learn a bit more about them. In the works section you can click on an image to be redirected to a different application. You are also able to see responsive layout that adapts to the viewport.
 ## Credits
 N/A
 ## License
