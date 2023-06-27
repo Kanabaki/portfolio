@@ -12,24 +12,29 @@ header  {
     color:rgb(255, 238, 0);
     
 }
+/*Heading Styling*/
 h1 {
     font-size:40px;
 }
+h2 {
+    background-color:rgb(163, 19, 139);
+   color:rgb(255, 255, 164);
+}
+h3 {
+    margin-left:10px;
+}
 aside {
     display:inline-block;
-    flex: 30%;
 background-color: brown;
-flex-wrap:wrap;
 padding:8px;
 /*3 value margin 20px=top 30px=l&r 50px=bottom*/
-margin:20px 30px 50px;
-
+margin:20px 20px 10px;
 }
-
+/*article properties set the article backgrounds to a different blue than the backdrop*/
 article {
 background-color:rgb(106, 165, 192);
 }
-
+/*header nav here sets the properties for the navigation links at the top*/
 header nav ul{
     text-align:end;
     color:rgb(255, 255, 164);
@@ -39,53 +44,90 @@ header ul li {
     list-style-type: none;
  display: inline-block;
 font-size:23px;
+
 }
 
 body {
     background-color:azure;
+    font-size:25px;
 }
-
+p {
+    margin-left:15px;
+}
 .name-avatar h2 {
     width:250px;
-    margin-top:20px;
+    margin-top:7px;
     padding-left:3px;
     background-color:rgb(68, 100, 160);
     color:rgb(255, 255, 164);
 }
+/*Sets the sizing on the prof avatar*/
 .name-avatar img {
     width:250px;
     margin-top:5px;
 }
 
-h2 {
-     background-color:rgb(163, 19, 139);
-    color:rgb(255, 255, 164);
-}
 main {
-    width:40%;
+    width:100%;
     display:flex;
-    flex-wrap:wrap;
-   margin:10px 0px 10px;
+   margin:0px 10px 10px;
 }
 .content {
 line-height:1.5;
 margin:10px 10px 30px;
-
 }
+
+/*The following 2 blocks use pseudo select to change the hover state of the anchor img*/
+.content img {
+    transition: transform .2s; /* Animation */
+    width: 250px;
+    height: auto;
+    margin: 10px 20px 0px;
+  }
+  
+  .content img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
 footer ul li {
     list-style-type: none;
+    
 }
 footer {
-
     background-color: rgb(68, 100, 160);
 }
-.content article img {
-    width:250px;
-    margin-left:5px;
+
+.about-me {
+margin:10px 30px 5px 0px;
 }
 
-main section .about-me {
-display:inline-block;
-/*flex-wrap:wrap;
-flex:60%;*/
-}
+/*Media queries that add a responsive layout*/
+/* Mobile devices - header changes color */
+@media screen and (max-width: 480px) {
+    header {
+      background-color: #9c0b0b;
+    }
+    main {
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+  }
+  
+  /* Tablets - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+    main {
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+  }
+  
+  /* Laptop - image placeholders change color */
+  @media screen and (min-width: 769px) {
+    header ul {
+      background-color: brown;
+    }
+  }
+
