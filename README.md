@@ -5,6 +5,7 @@ This application was created to serve as a portfolio so that future employers ca
 N/A
 ## Usage
 ![Portfolio Screenshot](./Assets/Portfolio.png)
+https://kanabaki.github.io/portfolio/
 
 When you load the webpage you can see a header with a navigation section that you can click to jump to different sections on the page. Below that, you can find this developer's name, as well as learn a bit more about them. In the works section you can click on an image to be redirected to a different application. You are also able to see responsive layout that adapts to the viewport.
 ## Credits
