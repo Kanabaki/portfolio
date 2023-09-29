@@ -17,7 +17,7 @@ h1 {
     font-size:40px;
 }
 h2 {
-    background-color:rgb(163, 19, 139);
+    background-color:rgb(68, 100, 160);
    color:rgb(255, 255, 164);
 }
 h3 {
@@ -25,13 +25,14 @@ h3 {
 }
 aside {
     display:inline-block;
-background-color: brown;
+background-color: rgb(106, 165, 192);
 padding:8px;
 /*3 value margin 20px=top 30px=l&r 50px=bottom*/
 margin:20px 20px 10px;
 }
 /*article properties set the article backgrounds to a different blue than the backdrop*/
 article {
+
 background-color:rgb(106, 165, 192);
 }
 /*header nav here sets the properties for the navigation links at the top*/
@@ -127,7 +128,7 @@ margin:10px 30px 5px 0px;
   /* Laptop - image placeholders change color */
   @media screen and (min-width: 769px) {
     header ul {
-      background-color: brown;
+      background-color: rgb(106, 165, 192);
     }
   }
 
