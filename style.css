@@ -30,11 +30,11 @@ padding:8px;
 /*3 value margin 20px=top 30px=l&r 50px=bottom*/
 margin:20px 20px 10px;
 }
-/*article properties set the article backgrounds to a different blue than the backdrop*/
-article {
 
-background-color:rgb(106, 165, 192);
+.card {
+display:inline-block
 }
+
 /*header nav here sets the properties for the navigation links at the top*/
 header nav ul{
     text-align:end;
@@ -76,6 +76,11 @@ main {
 .content {
 line-height:1.5;
 margin:10px 10px 30px;
+}
+
+section {
+    background-color:rgb(106, 165, 192);
+
 }
 
 /*The following 2 blocks use pseudo select to change the hover state of the anchor img*/
